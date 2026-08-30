@@ -7,7 +7,7 @@ from .routes import router
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
-    title="Expense Tracker API",
+    title="Expense API Tracker",
     description="A FastAPI backend application to manage personal expenses.",
     version="1.0.0"
 )
