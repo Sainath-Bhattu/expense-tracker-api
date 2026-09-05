@@ -18,6 +18,6 @@ app.include_router(router)
 @app.get("/")
 def home():
     return {
-        "message": "Welcome to Expense Tracker API",
+        "message": "Welcome to The Expense Tracker API",
         "docs": "/docs"
     }
